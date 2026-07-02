@@ -1,0 +1,49 @@
+.footer {
+    width: 100%;
+    height: 170px;
+    background-color: rgb(18, 18, 18);
+    position: relative;
+    bottom: 0;
+    margin-top: 190px;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px 0px;
+}
+.footertext {
+    font-family: Cairo;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(220, 220, 220);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.ftcon {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.copyr {
+    font-family: Cairo;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(220, 220, 220);
+    margin: 0;
+    align-items: text-bottom;
+}
+.fa-youtube, .fa-x-twitter {
+    font-size: 32px;
+    margin-right: 2.5%;
+    margin-bottom: 0;
+    color: rgb(220, 220, 220);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.fa-youtube:hover {
+    color: rgb(204, 24, 30);
+}
+.fa-x-twitter:hover {
+    color: rgb(29, 161, 242);
+}

@@ -1,0 +1,368 @@
+.content {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 30px;
+    row-gap: 60px;
+    justify-content: center;
+}
+.postcon {
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 2px 0px;
+}
+.postimg {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+.postimg:hover {
+    transform: scale(1.1);
+}
+.postimg-zoom {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.posttl {
+    font-family: Cairo;
+    font-size: 22px;
+    color: rgb(18, 18, 18);
+    margin-right: 6px;
+    cursor: pointer;
+}
+.posttl:hover {
+    color: rgb(1, 112, 185);
+}
+.timeet {
+    width: 100%;
+    height: 25px;
+}
+.posttext {
+    font-family: Cairo;
+    font-size: 14px;
+    color: black;
+    margin-right: 6px;
+}
+.fa-pen-nib {
+    font-size: 22px;
+    margin-left: 6px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(140, 140, 140);
+    margin-right: 6px;
+}
+.timetext {
+    display: inline-block;
+    font-family: Kufam;
+    margin: 0;
+    color: rgb(140, 140, 140);
+}
+.article {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.arttitle, .arttext {
+    font-family: Cairo;
+    color: rgb(18, 18, 18);
+}
+.arttitle {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+.arttext {
+    font-size: 22px;
+}
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 30px;
+    justify-content: center;
+    row-gap: 60px;
+    margin-top: 30px;
+    padding-bottom: 300px;
+}
+.contentpr {
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 2px 0px;
+}
+.contentprimg {
+    height: 525px;
+    width: 100%;
+    background-size: cover;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+.contentprimg:hover {
+    transform: scale(1.1);
+}
+.contentprimg-zoom {
+    width: 100%;
+    height: 525px;
+    overflow: hidden;
+}
+.contentprtext, .contentpr-ogtext, .contentprtag, .contentprtag-wo {
+    width: 100%;
+    height: auto;
+}
+.contentprtag-wo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.prtext, .pr-wotext {
+    font-family: Cairo;
+    font-size: 26px;
+    color: rgb(18, 18, 18);
+    margin-right: 12px;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.pr-wotext {
+    margin-bottom: 30px;
+    direction: ltr;
+    text-align: center;
+}
+.prtext:hover {
+    color: rgb(1, 112, 185);
+}
+.prtag {
+    font-family: Cairo;
+    color: rgb(78, 78, 78);
+    font-size: 16px;
+    margin-right: 12px;
+}
+.pr-ogtext {
+    font-family: Arial;
+    font-size: 18px;
+    color: rgb(18, 18, 18);
+    margin-right: 12px;
+    text-align: end;
+    direction: ltr;
+    margin-top: 0;
+}
+.staffwrks, .staffwrks-s {
+    font-family: Arial;
+    font-size: 18px;
+    direction: ltr;
+    text-align: end;
+    margin-right: 12px;
+    color: rgb(1, 112, 185);
+}
+.staffwrks-s {
+    font-family: Cairo;
+    text-align: start;
+    direction: rtl;
+    color: rgb(18, 18, 18);
+    font-size: 22px;
+}
+.staffwrkscon {
+    width: 100%;
+}
+.staffpf {
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.staffpfi, .staffpfi-ol {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px rgb(1, 112, 185) solid;
+}
+.staffbtn {
+    width: 100%;
+    height: 60px;
+    font-family: Cairo;
+    font-size: 20px;
+    color: rgb(18, 18, 18);
+    background-color: rgb(75, 151, 202);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color 0.2s, background-color 0.2s;
+}
+.staffbtn:hover {
+    color: rgb(140, 140, 140);
+    background-color: rgb(18, 18, 18);
+}
+.staffpfp, .pfoverlay-pfp {
+    margin-top: 25px;
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px 0px;
+}
+.staffpfp img, .pfoverlay-pfp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.staffpftext {
+    font-family: Cairo;
+    font-size: 26px;
+    color: rgb(18, 18, 18);
+    margin-bottom: 40px;
+}
+.pfoverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.pfoverlayf {
+    width: 1100px;
+    height: 600px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px 0px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pfoverlay-inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-top: 10px;
+}
+.pfoverlay-a {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.roletext {
+    font-family: Kufam;
+    font-size: 18px;
+    color: rgb(18, 18, 18);
+    line-height: 40px;
+}
+.pfoverlay-b {
+    width: 700px;
+    height: 100%;
+}
+.prinvtitle {
+    font-family: Cairo;
+    font-size: 28px;
+}
+.prinvtext {
+    font-family: Arial;
+    font-size: 20px;
+    direction: ltr;
+    text-align: end;
+}
+.progresscont, .progresscont2, .progresscont3, .progresscont4 {
+    width: 400px;
+    height: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+    border-radius: 4px;
+    background-color: rgb(140, 140, 140);
+    transition: width 0.5s;
+}
+.progress, .progress2, .progress3, .progress4 {
+    width: 0%;
+    height: 100%;
+    background-color: rgb(1, 112, 185);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.progress2 {
+    width: 0%;
+}
+.progress3 {
+    width: 0%;
+}
+.progress4 {
+    width: 0%;
+}
+.percentage {
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0;
+    color: white;
+    margin-right: 10px;
+}
+.prprogress {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 60px;
+    justify-content: center;
+    align-items: start;
+}
+.prprogresscont {
+    width: 90%;
+    height: 400px;
+    border: 2px rgb(18, 18, 18) solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.progresstitle {
+    color: rgb(18, 18, 18);
+    font-family: Arial;
+    font-size: 28px;
+    text-align: start;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-top: 80px;
+    direction: ltr;
+}
+.progresstext {
+    color: rgb(18, 18, 18);
+    font-family: Cairo;
+    font-size: 20px;
+}
+.progresselement {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.progressbtn {
+    margin-bottom: 20px;
+    padding: 15px 50px 15px 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(75, 151, 202);
+    color: rgb(18, 18, 18);
+    font-family: Cairo;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.2s, background-color 0.2s;
+}
+.progressbtn:hover {
+    background-color: rgb(18, 18, 18);
+    color: rgb(140, 140, 140);
+}

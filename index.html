@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+    <head>
+        <title>Droplet - الصفحة الرئيسية | قطرة</title>
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/content.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Kufam:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <!-- Header -->
+        <div class="background">
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none;"><img src="imgs/logo_2_ts.png" draggable="false"></a>
+                </div>
+                <div class="buttons">
+                    <a href="index.html" style="text-decoration: none;"><button class="mainbutton">الرئيسية</button></a>
+                    <a href="من نحن.html" style="text-decoration: none;"><button class="secbutton">من نحن؟</button></a>
+                    <a href="التعريبات.html" style="text-decoration: none;"><button class="secbutton">التعريبات</button></a>
+                    <a href="المشاريع.html" style="text-decoration: none;"><button class="secbutton">المشاريع</button></a>
+                    <a href="الطاقم.html" style="text-decoration: none;"><button class="secbutton">الطاقَم</button></a>
+                </div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <p class="title">المَقالات المُهمّة</p>
+        <!--
+        <div class="content">
+            <div class="postcon">
+                <div class="postimg-zoom">
+                    <div class="postimg" style="background-image: url(imgs/btnnw.jpg);"></div>
+                </div>
+                <p class="posttl">حالة التقدُّم</p>
+                <div class="timeet">
+                    <i class="fa-solid fa-pen-nib"></i><p class="timetext">كُتِبَ في 21 ديسمبر, 2025</p>
+                </div>
+                <p class="posttext">
+                    لا يزال فريقُنا المُتواضع يُحاول ويحاول قدر الإمكان أن...
+                </p>
+            </div>
+        </div>
+        -->
+        <div class="divider"></div>
+        <p class="title">المَقالات</p>
+        <!--
+        <div class="content">
+            <div class="postcon">
+                <div class="postimg-zoom">
+                    <div class="postimg" style="background-image: url(imgs/btnnw.jpg);"></div>
+                </div>
+                <p class="posttl">حالة التقدُّم</p>
+                <div class="timeet">
+                    <i class="fa-solid fa-pen-nib"></i><p class="timetext">كُتِبَ في 21 ديسمبر, 2025</p>
+                </div>
+                <p class="posttext">
+                    لا يزال فريقُنا المُتواضع يُحاول ويحاول قدر الإمكان أن...
+                </p>
+            </div>
+        </div>
+        -->
+        
+
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="ftcon">
+                <p class="footertext">تجدوننا أيضا:</p>
+                <a href="سياسة المحتوى.html" style="text-decoration: none;"><p class="footertext" style="cursor: pointer;">سياسة المُحتوى</p></a>
+            </div>
+            <div>
+                <a style="text-decoration: none;" target="_blank" href="https://www.youtube.com/@Droplet_Qatra"><i class="fa-brands fa-youtube"></i></a>
+                <a style="text-decoration: none;" target="_blank" href="https://x.com/qatra_vn_sub"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <p class="copyr"> 2026 &copy; قطرَة - Droplet</p>
+            <p class="copyr">جَميع الحُقوق محفوظة.</p>
+        </div>
+
+
+        <!-- background-change -->
+        <script>
+            const width = window.screen.width;
+            const images = [
+            "imgs/h032a720.png",
+            "imgs/bg720.png"
+            ];
+            const images2 = [
+            "imgs/h032a1920.png",
+            "imgs/bg1080.png"
+            ];
+
+            const randomImage = images[Math.floor(Math.random() * images.length)];
+            const randomImage2 = images2[Math.floor(Math.random() * images2.length)];
+
+            if(width <= 1280){
+                document.querySelector(".background").style.backgroundImage =
+            `linear-gradient(rgba(0, 0, 0, 0.2)), url("${randomImage}")`;
+            }
+            else if(width <= 1920){
+                document.querySelector(".background").style.backgroundImage =
+            `linear-gradient(rgba(0, 0, 0, 0.2)), url("${randomImage2}")`;
+            }
+            else{
+                document.querySelector(".background").style.backgroundImage =
+            `linear-gradient(rgba(0, 0, 0, 0.2)), url("${randomImage2}")`;
+            }
+
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+.background {
+    width: 100%;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (min-width: 1920px) {
+    .background{
+        height: 1000px;
+    }
+}
+.title {
+    color: rgb(18, 18, 18);
+    font-family: Cairo;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.divider {
+    width: 80%;
+    background-color: black;
+    height: 2px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pfdivider {
+    width: 80%;
+    background-color: black;
+    height: 2px;
+    margin-top: 30px;
+}
+.pfdivider2 {
+    height: 80%;
+    width: 2px;
+    background-color: black;
+}
+.background2, .backgroundsp {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../imgs/bg005ae.png);
+    width: 100%;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundsp {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../imgs/h003c.png);
+}
+.sttitle {
+    color: white;
+    text-align: center;
+    font-family: Kufam;
+    font-size: 42px;
+    margin-top: 300px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+.stauthor {
+    color: white;
+    text-align: center;
+    font-family: Kufam;
+    font-size: 36px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}

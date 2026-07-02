@@ -1,0 +1,104 @@
+.staff{
+    display: grid;
+    grid-template-columns: 260px;
+    column-gap: 60px;
+    justify-content: center;
+    align-items: start;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.pstcon {
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    margin-top: 60px;
+}
+.prttl {
+    background-color: rgb(124, 195, 212);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 28px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+.info {
+    display: flex;
+    width: 100%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+}
+.infop {
+    height: 450px;
+    width: 850px;
+}
+.infotext {
+    font-family: Cairo;
+    font-size: 20px;
+    margin-right: 30px;
+}
+.postn {
+    font-family: Cairo;
+    font-size: 22px;
+}
+.vid {
+    width: 896px;
+    height: 504px;
+    border: 2px solid rgb(136, 136, 136);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.staffpfp2 {
+    height: 180px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.staffpfp2 img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 100%;
+}
+.staffpfp2con {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.staffpftext2 {
+    font-family: Cairo;
+    font-size: 26px;
+    color: rgb(18, 18, 18);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.staffpftextde {
+    font-family: Cairo;
+    font-size: 20px;
+    color: rgb(27, 27, 27);
+    text-align: center;
+}
+.downloadbtn {
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(75, 151, 202);
+    color: white;
+    padding: 15px 25px 15px 25px;
+    font-family: Cairo;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.downloadbtn:hover {
+    background-color: rgb(109, 64, 23);
+}
