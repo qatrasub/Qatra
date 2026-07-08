@@ -39,7 +39,7 @@ body {
     width: 2px;
     background-color: black;
 }
-.background2, .backgroundsp {
+.background2, .backgroundsp, .background3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1)), url(../imgs/f003c.png);
     width: 100%;
     height: 720px;
@@ -50,6 +50,10 @@ body {
     .background2 {
         height: 900px;
     }
+}
+.background3 {
+    height: 640px
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../imgs/bg005ae.png);
 }
 .backgroundsp {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../imgs/h003c.png);
