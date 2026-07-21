@@ -51,13 +51,6 @@ body {
         height: 900px;
     }
 }
-.background3 {
-    height: 640px
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../imgs/bg005ae.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .backgroundsp {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../imgs/h003c.png);
     width: 100%;

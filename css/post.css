@@ -21,7 +21,6 @@
     margin-top: 60px;
 }
 .prttl {
-    background-color: rgb(124, 195, 212);
     width: 100%;
     height: auto;
     text-align: center;
@@ -101,4 +100,37 @@
 }
 .downloadbtn:hover {
     background-color: rgb(109, 64, 23);
+}
+.prog {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.progcon {
+    width: 85%;
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+.progtxt {
+    font-family: Cairo;
+    font-size: 24px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+.jtext {
+    font-family: Cairo;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.htext {
+    font-family: Cairo;
+    font-size: 26px;
+    color: rgb(18, 18, 18);
 }
